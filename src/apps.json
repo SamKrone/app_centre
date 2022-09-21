@@ -1,0 +1,14 @@
+{
+    "Example Category 1":
+    {
+        "Example App 1": "C:/ExampleApp1.exe",
+        "Example App 2": "C:/ExampleApp2.exe",
+        "Example App 3": "C:/ExampleApp3.exe"
+    },
+    "Example Category 2":
+    {
+        "Example App 4": "C:/ExampleApp4",
+        "Example App 5": "C:/ExampleApp5",
+        "Example App 6": "C:/ExampleApp6"
+    }
+}
