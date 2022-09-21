@@ -1,6 +1,34 @@
 # app_centre
 A CLI program written in Rust that allows you to quickly and discreetly access applications from a CLI interface
 
-Note to self: About 150 lines into the project and this is going to be a bit more complicated than I first thought. Probably should have seperated it into files for better heirarchy etc. but oh well bit late now
+Apps and app locations are stored in folders. This is stored and represented in the apps.json file as such:
 
-Note to self: It really wasn't at the time but it reall is now
+```
+{
+    "Example Category 1":
+    {
+        "Example App 1": "C:/ExampleApp1.exe",
+        "Example App 2": "C:/ExampleApp2.exe",
+        "Example App 3": "C:/ExampleApp3.exe"
+    },
+    "Example Category 2":
+    {
+        "Example App 4": "C:/ExampleApp4",
+        "Example App 5": "C:/ExampleApp5",
+        "Example App 6": "C:/ExampleApp6"
+    }
+}
+```
+
+Where...
+
+```
+"Example Category" is the category name
+
+"Example App" is the displayed name of the app
+
+"C:/ExampleApp" is the file location of the app
+```
+
+
+apps.json needs to be edited to add new apps or folders to the program
